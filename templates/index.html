@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Cover Type Prediction</title>
+</head>
+<body>
+    <h1>Forest Cover Type Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="Elevation">Elevation:</label>
+        <input type="text" name="Elevation" id="Elevation" required><br>
+
+        <label for="Aspect">Aspect:</label>
+        <input type="text" name="Aspect" id="Aspect" required><br>
+
+        <label for="Slope">Slope:</label>
+        <input type="text" name="Slope" id="Slope" required><br>
+
+        <label for="Horizontal_Distance_To_Hydrology">Horizontal Distance To Hydrology:</label>
+        <input type="text" name="Horizontal_Distance_To_Hydrology" id="Horizontal_Distance_To_Hydrology" required><br>
+
+        <label for="Vertical_Distance_To_Hydrology">Vertical Distance To Hydrology:</label>
+        <input type="text" name="Vertical_Distance_To_Hydrology" id="Vertical_Distance_To_Hydrology" required><br>
+
+        <label for="Horizontal_Distance_To_Roadways">Horizontal Distance To Roadways:</label>
+        <input type="text" name="Horizontal_Distance_To_Roadways" id="Horizontal_Distance_To_Roadways" required><br>
+
+        <label for="Hillshade_9am">Hillshade 9am:</label>
+        <input type="text" name="Hillshade_9am" id="Hillshade_9am" required><br>
+
+        <label for="Hillshade_Noon">Hillshade Noon:</label>
+        <input type="text" name="Hillshade_Noon" id="Hillshade_Noon" required><br>
+
+        <label for="Hillshade_3pm">Hillshade 3pm:</label>
+        <input type="text" name="Hillshade_3pm" id="Hillshade_3pm" required><br>
+
+        <label for="Horizontal_Distance_To_Fire_Points">Horizontal Distance To Fire Points:</label>
+        <input type="text" name="Horizontal_Distance_To_Fire_Points" id="Horizontal_Distance_To_Fire_Points" required><br>
+
+        <label for="Wilderness_Area1">Wilderness Area 1:</label>
+        <input type="text" name="Wilderness_Area1" id="Wilderness_Area1" required><br>
+
+        <label for="Wilderness_Area2">Wilderness Area 2:</label>
+        <input type="text" name="Wilderness_Area2" id="Wilderness_Area2" required><br>
+
+        <label for="Wilderness_Area3">Wilderness Area 3:</label>
+        <input type="text" name="Wilderness_Area3" id="Wilderness_Area3" required><br>
+
+        <label for="Wilderness_Area4">Wilderness Area 4:</label>
+        <input type="text" name="Wilderness_Area4" id="Wilderness_Area4" required><br>
+
+        <label for="Soil_Type1">Soil Type 1:</label>
+        <input type="text" name="Soil_Type1" id="Soil_Type1" required><br>
+
+        <label for="Soil_Type2">Soil Type 2:</label>
+        <input type="text" name="Soil_Type2" id="Soil_Type2" required><br>
+
+        <label for="Soil_Type3">Soil Type 3:</label>
+        <input type="text" name="Soil_Type3" id="Soil_Type3" required><br>
+
+        <label for="Soil_Type4">Soil Type 4:</label>
+        <input type="text" name="Soil_Type4" id="Soil_Type4" required><br>
+
+        <label for="Soil_Type5">Soil Type 5:</label>
+        <input type="text" name="Soil_Type5" id="Soil_Type5" required><br>
+
+        <label for="Soil_Type6">Soil Type 6:</label>
+        <input type="text" name="Soil_Type6" id="Soil_Type6" required><br>
+
+        <label for="Soil_Type7">Soil Type 7:</label>
+        <input type="text" name="Soil_Type7" id="Soil_Type7" required><br>
+
+        <label for="Soil_Type8">Soil Type 8:</label>
+        <input type="text" name="Soil_Type8" id="Soil_Type8" required><br>
+
+        <label for="Soil_Type9">Soil Type 9:</label>
+        <input type="text" name="Soil_Type9" id="Soil_Type9" required><br>
+
+        <label for="Soil_Type10">Soil Type 10:</label>
+        <input type="text" name="Soil_Type10" id="Soil_Type10" required><br>
+
+        <label for="Soil_Type11">Soil Type 11:</label>
+        <input type="text" name="Soil_Type11" id="Soil_Type11" required><br>
+
+        <label for="Soil_Type12">Soil Type 12:</label>
+        <input type="text" name="Soil_Type12" id="Soil_Type12" required><br>
+
+        <label for="Soil_Type13">Soil Type 13:</label>
+        <input type="text" name="Soil_Type13" id="Soil_Type13" required><br>
+
+        <label for="Soil_Type14">Soil Type 14:</label>
+        <input type="text" name="Soil_Type14" id="Soil_Type14" required><br>
+
+        <label for="Soil_Type15">Soil Type 15:</label>
+        <input type="text" name="Soil_Type15" id="Soil_Type15" required><br>
+
+        <label for="Soil_Type16">Soil Type 16:</label>
+        <input type="text" name="Soil_Type16" id="Soil_Type16" required><br>
+
+        <label for="Soil_Type17">Soil Type 17:</label>
+        <input type="text" name="Soil_Type17" id="Soil_Type17" required><br>
+
+        <label for="Soil_Type18">Soil Type 18:</label>
+        <input type="text" name="Soil_Type18" id="Soil_Type18" required><br>
+
+        <label for="Soil_Type19">Soil Type 19:</label>
+        <input type="text" name="Soil_Type19" id="Soil_Type19" required><br>
+
+        <label for="Soil_Type20">Soil Type 20:</label>
+        <input type="text" name="Soil_Type20" id="Soil_Type20" required><br>
+
+        <label for="Soil_Type21">Soil Type 21:</label>
+        <input type="text" name="Soil_Type21" id="Soil_Type21" required><br>
+
+        <label for="Soil_Type22">Soil Type 22:</label>
+        <input type="text" name="Soil_Type22" id="Soil_Type22" required><br>
+
+        <label for="Soil_Type23">Soil Type 23:</label>
+        <input type="text" name="Soil_Type23" id="Soil_Type23" required><br>
+
+        <label for="Soil_Type24">Soil Type 24:</label>
+        <input type="text" name="Soil_Type24" id="Soil_Type24" required><br>
+
+        <label for="Soil_Type25">Soil Type 25:</label>
+        <input type="text" name="Soil_Type25" id="Soil_Type25" required><br>
+
+        <label for="Soil_Type26">Soil Type 26:</label>
+        <input type="text" name="Soil_Type26" id="Soil_Type26" required><br>
+
+        <label for="Soil_Type27">Soil Type 27:</label>
+        <input type="text" name="Soil_Type27" id="Soil_Type27" required><br>
+
+        <label for="Soil_Type28">Soil Type 28:</label>
+        <input type="text" name="Soil_Type28" id="Soil_Type28" required><br>
+
+        <label for="Soil_Type29">Soil Type 29:</label>
+        <input type="text" name="Soil_Type29" id="Soil_Type29" required><br>
+
+        <label for="Soil_Type30">Soil Type 30:</label>
+        <input type="text" name="Soil_Type30" id="Soil_Type30" required><br>
+
+        <label for="Soil_Type31">Soil Type 31:</label>
+        <input type="text" name="Soil_Type31" id="Soil_Type31" required><br>
+
+        <label for="Soil_Type32">Soil Type 32:</label>
+        <input type="text" name="Soil_Type32" id="Soil_Type32" required><br>
+
+        <label for="Soil_Type33">Soil Type 33:</label>
+        <input type="text" name="Soil_Type33" id="Soil_Type33" required><br>
+
+        <label for="Soil_Type34">Soil Type 34:</label>
+        <input type="text" name="Soil_Type34" id="Soil_Type34" required><br>
+
+        <label for="Soil_Type35">Soil Type 35:</label>
+        <input type="text" name="Soil_Type35" id="Soil_Type35" required><br>
+
+        <label for="Soil_Type36">Soil Type 36:</label>
+        <input type="text" name="Soil_Type36" id="Soil_Type36" required><br>
+
+        <label for="Soil_Type37">Soil Type 37:</label>
+        <input type="text" name="Soil_Type37" id="Soil_Type37" required><br>
+
+        <label for="Soil_Type38">Soil Type 38:</label>
+        <input type="text" name="Soil_Type38" id="Soil_Type38" required><br>
+
+        <label for="Soil_Type39">Soil Type 39:</label>
+        <input type="text" name="Soil_Type39" id="Soil_Type39" required><br>
+
+        <label for="Soil_Type40">Soil Type 40:</label>
+        <input type="text" name="Soil_Type40" id="Soil_Type40" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if result %}
+        <h2>{{ result }}</h2>
+    {% endif %}
+</body>
+</html>
